@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CED1AB66-9EF8-9501-4B27-4C44B9F6FF29}") = "DBZ Contra", "Assembly-CSharp.csproj", "{00C6C4C7-E433-00DA-CC0E-45254FD92AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00C6C4C7-E433-00DA-CC0E-45254FD92AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C6C4C7-E433-00DA-CC0E-45254FD92AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C6C4C7-E433-00DA-CC0E-45254FD92AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C6C4C7-E433-00DA-CC0E-45254FD92AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5043 @@
+fileFormatVersion: 2
+guid: 0bc24c375f65cfc4fbf34cc649f64e5e
+timeCreated: 1471653057
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vegeta_0
+    21300002: Vegeta_1
+    21300004: Vegeta_2
+    21300006: Vegeta_3
+    21300008: Vegeta_4
+    21300010: Vegeta_5
+    21300012: Vegeta_6
+    21300014: Vegeta_7
+    21300016: Vegeta_8
+    21300018: Vegeta_9
+    21300020: Vegeta_10
+    21300022: Vegeta_11
+    21300024: Vegeta_12
+    21300026: Vegeta_13
+    21300028: Vegeta_14
+    21300030: Vegeta_15
+    21300032: Vegeta_16
+    21300034: Vegeta_17
+    21300036: Vegeta_18
+    21300038: Vegeta_19
+    21300040: Vegeta_20
+    21300042: Vegeta_21
+    21300044: Vegeta_22
+    21300046: Vegeta_23
+    21300048: Vegeta_24
+    21300050: Vegeta_25
+    21300052: Vegeta_26
+    21300054: Vegeta_27
+    21300056: Vegeta_28
+    21300058: Vegeta_29
+    21300060: Vegeta_30
+    21300062: Vegeta_31
+    21300064: Vegeta_32
+    21300066: Vegeta_33
+    21300068: Vegeta_34
+    21300070: Vegeta_35
+    21300072: Vegeta_36
+    21300074: Vegeta_37
+    21300076: Vegeta_38
+    21300078: Vegeta_39
+    21300080: Vegeta_40
+    21300082: Vegeta_41
+    21300084: Vegeta_42
+    21300086: Vegeta_43
+    21300088: Vegeta_44
+    21300090: Vegeta_45
+    21300092: Vegeta_46
+    21300094: Vegeta_47
+    21300096: Vegeta_48
+    21300098: Vegeta_49
+    21300100: Vegeta_50
+    21300102: Vegeta_51
+    21300104: Vegeta_52
+    21300106: Vegeta_53
+    21300108: Vegeta_54
+    21300110: Vegeta_55
+    21300112: Vegeta_56
+    21300114: Vegeta_57
+    21300116: Vegeta_58
+    21300118: Vegeta_59
+    21300120: Vegeta_60
+    21300122: Vegeta_61
+    21300124: Vegeta_62
+    21300126: Vegeta_63
+    21300128: Vegeta_64
+    21300130: Vegeta_65
+    21300132: Vegeta_66
+    21300134: Vegeta_67
+    21300136: Vegeta_68
+    21300138: Vegeta_69
+    21300140: Vegeta_70
+    21300142: Vegeta_71
+    21300144: Vegeta_72
+    21300146: Vegeta_73
+    21300148: Vegeta_74
+    21300150: Vegeta_75
+    21300152: Vegeta_76
+    21300154: Vegeta_77
+    21300156: Vegeta_78
+    21300158: Vegeta_79
+    21300160: Vegeta_80
+    21300162: Vegeta_81
+    21300164: Vegeta_82
+    21300166: Vegeta_83
+    21300168: Vegeta_84
+    21300170: Vegeta_85
+    21300172: Vegeta_86
+    21300174: Vegeta_87
+    21300176: Vegeta_88
+    21300178: Vegeta_89
+    21300180: Vegeta_90
+    21300182: Vegeta_91
+    21300184: Vegeta_92
+    21300186: Vegeta_93
+    21300188: Vegeta_94
+    21300190: Vegeta_95
+    21300192: Vegeta_96
+    21300194: Vegeta_97
+    21300196: Vegeta_98
+    21300198: Vegeta_99
+    21300200: Vegeta_100
+    21300202: Vegeta_101
+    21300204: Vegeta_102
+    21300206: Vegeta_103
+    21300208: Vegeta_104
+    21300210: Vegeta_105
+    21300212: Vegeta_106
+    21300214: Vegeta_107
+    21300216: Vegeta_108
+    21300218: Vegeta_109
+    21300220: Vegeta_110
+    21300222: Vegeta_111
+    21300224: Vegeta_112
+    21300226: Vegeta_113
+    21300228: Vegeta_114
+    21300230: Vegeta_115
+    21300232: Vegeta_116
+    21300234: Vegeta_117
+    21300236: Vegeta_118
+    21300238: Vegeta_119
+    21300240: Vegeta_120
+    21300242: Vegeta_121
+    21300244: Vegeta_122
+    21300246: Vegeta_123
+    21300248: Vegeta_124
+    21300250: Vegeta_125
+    21300252: Vegeta_126
+    21300254: Vegeta_127
+    21300256: Vegeta_128
+    21300258: Vegeta_129
+    21300260: Vegeta_130
+    21300262: Vegeta_131
+    21300264: Vegeta_132
+    21300266: Vegeta_133
+    21300268: Vegeta_134
+    21300270: Vegeta_135
+    21300272: Vegeta_136
+    21300274: Vegeta_137
+    21300276: Vegeta_138
+    21300278: Vegeta_139
+    21300280: Vegeta_140
+    21300282: Vegeta_141
+    21300284: Vegeta_142
+    21300286: Vegeta_143
+    21300288: Vegeta_144
+    21300290: Vegeta_145
+    21300292: Vegeta_146
+    21300294: Vegeta_147
+    21300296: Vegeta_148
+    21300298: Vegeta_149
+    21300300: Vegeta_150
+    21300302: Vegeta_151
+    21300304: Vegeta_152
+    21300306: Vegeta_153
+    21300308: Vegeta_154
+    21300310: Vegeta_155
+    21300312: Vegeta_156
+    21300314: Vegeta_157
+    21300316: Vegeta_158
+    21300318: Vegeta_159
+    21300320: Vegeta_160
+    21300322: Vegeta_161
+    21300324: Vegeta_162
+    21300326: Vegeta_163
+    21300328: Vegeta_164
+    21300330: Vegeta_165
+    21300332: Vegeta_166
+    21300334: Vegeta_167
+    21300336: Vegeta_168
+    21300338: Vegeta_169
+    21300340: Vegeta_170
+    21300342: Vegeta_171
+    21300344: Vegeta_172
+    21300346: Vegeta_173
+    21300348: Vegeta_174
+    21300350: Vegeta_175
+    21300352: Vegeta_176
+    21300354: Vegeta_177
+    21300356: Vegeta_178
+    21300358: Vegeta_179
+    21300360: Vegeta_180
+    21300362: Vegeta_181
+    21300364: Vegeta_182
+    21300366: Vegeta_183
+    21300368: Vegeta_184
+    21300370: Vegeta_185
+    21300372: Vegeta_186
+    21300374: Vegeta_187
+    21300376: Vegeta_188
+    21300378: Vegeta_189
+    21300380: Vegeta_190
+    21300382: Vegeta_191
+    21300384: Vegeta_192
+    21300386: Vegeta_193
+    21300388: Vegeta_194
+    21300390: Vegeta_195
+    21300392: Vegeta_196
+    21300394: Vegeta_197
+    21300396: Vegeta_198
+    21300398: Vegeta_199
+    21300400: Vegeta_200
+    21300402: Vegeta_201
+    21300404: Vegeta_202
+    21300406: Vegeta_203
+    21300408: Vegeta_204
+    21300410: Vegeta_205
+    21300412: Vegeta_206
+    21300414: Vegeta_207
+    21300416: Vegeta_208
+    21300418: Vegeta_209
+    21300420: Vegeta_210
+    21300422: Vegeta_211
+    21300424: Vegeta_212
+    21300426: Vegeta_213
+    21300428: Vegeta_214
+    21300430: Vegeta_215
+    21300432: Vegeta_216
+    21300434: Vegeta_217
+    21300436: Vegeta_218
+    21300438: Vegeta_219
+    21300440: Vegeta_220
+    21300442: Vegeta_221
+    21300444: Vegeta_222
+    21300446: Vegeta_223
+    21300448: Vegeta_224
+    21300450: Vegeta_225
+    21300452: Vegeta_226
+    21300454: Vegeta_227
+    21300456: Vegeta_228
+    21300458: Vegeta_229
+    21300460: Vegeta_230
+    21300462: Vegeta_231
+    21300464: Vegeta_232
+    21300466: Vegeta_233
+    21300468: Vegeta_234
+    21300470: Vegeta_235
+    21300472: Vegeta_236
+    21300474: Vegeta_237
+    21300476: Vegeta_238
+    21300478: Vegeta_239
+    21300480: Vegeta_240
+    21300482: Vegeta_241
+    21300484: Vegeta_242
+    21300486: Vegeta_243
+    21300488: Vegeta_244
+    21300490: Vegeta_245
+    21300492: Vegeta_246
+    21300494: Vegeta_247
+    21300496: Vegeta_248
+    21300498: Vegeta_249
+    21300500: Vegeta_250
+    21300502: Vegeta_251
+    21300504: Vegeta_252
+    21300506: Vegeta_253
+    21300508: Vegeta_254
+    21300510: Vegeta_255
+    21300512: Vegeta_256
+    21300514: Vegeta_257
+    21300516: Vegeta_258
+    21300518: Vegeta_259
+    21300520: Vegeta_260
+    21300522: Vegeta_261
+    21300524: Vegeta_262
+    21300526: Vegeta_263
+    21300528: Vegeta_264
+    21300530: Vegeta_265
+    21300532: Vegeta_266
+    21300534: Vegeta_267
+    21300536: Vegeta_268
+    21300538: Vegeta_269
+    21300540: Vegeta_270
+    21300542: Vegeta_271
+    21300544: Vegeta_272
+    21300546: Vegeta_273
+    21300548: Vegeta_274
+    21300550: Vegeta_275
+    21300552: Vegeta_276
+    21300554: Vegeta_277
+    21300556: Vegeta_278
+    21300558: Vegeta_279
+    21300560: Vegeta_280
+    21300562: Vegeta_281
+    21300564: Vegeta_282
+    21300566: Vegeta_283
+    21300568: Vegeta_284
+    21300570: Vegeta_285
+    21300572: Vegeta_286
+    21300574: Vegeta_287
+    21300576: Vegeta_288
+    21300578: Vegeta_289
+    21300580: Vegeta_290
+    21300582: Vegeta_291
+    21300584: Vegeta_292
+    21300586: Vegeta_293
+    21300588: Vegeta_294
+    21300590: Vegeta_295
+    21300592: Vegeta_296
+    21300594: Vegeta_297
+    21300596: Vegeta_298
+    21300598: Vegeta_299
+    21300600: Vegeta_300
+    21300602: Vegeta_301
+    21300604: Vegeta_302
+    21300606: Vegeta_303
+    21300608: Vegeta_304
+    21300610: Vegeta_305
+    21300612: Vegeta_306
+    21300614: Vegeta_307
+    21300616: Vegeta_308
+    21300618: Vegeta_309
+    21300620: Vegeta_310
+    21300622: Vegeta_311
+    21300624: Vegeta_312
+    21300626: Vegeta_313
+    21300628: Vegeta_314
+    21300630: Vegeta_315
+    21300632: Vegeta_316
+    21300634: Vegeta_317
+    21300636: Vegeta_318
+    21300638: Vegeta_319
+    21300640: Vegeta_320
+    21300642: Vegeta_321
+    21300644: Vegeta_322
+    21300646: Vegeta_323
+    21300648: Vegeta_324
+    21300650: Vegeta_325
+    21300652: Vegeta_326
+    21300654: Vegeta_327
+    21300656: Vegeta_328
+    21300658: Vegeta_329
+    21300660: Vegeta_330
+    21300662: Vegeta_331
+    21300664: Vegeta_332
+    21300666: Vegeta_333
+    21300668: Vegeta_334
+    21300670: Vegeta_335
+    21300672: Vegeta_336
+    21300674: Vegeta_337
+    21300676: Vegeta_338
+    21300678: Vegeta_339
+    21300680: Vegeta_340
+    21300682: Vegeta_341
+    21300684: Vegeta_342
+    21300686: Vegeta_343
+    21300688: Vegeta_344
+    21300690: Vegeta_345
+    21300692: Vegeta_346
+    21300694: Vegeta_347
+    21300696: Vegeta_348
+    21300698: Vegeta_349
+    21300700: Vegeta_350
+    21300702: Vegeta_351
+    21300704: Vegeta_352
+    21300706: Vegeta_353
+    21300708: Vegeta_354
+    21300710: Vegeta_355
+    21300712: Vegeta_356
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Vegeta_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2736
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.128416, y: 22.491821}
+        - {x: -17.128416, y: 11.491821}
+        - {x: -17.128416, y: -21.508179}
+        - {x: 17.871584, y: -21.508179}
+        - {x: 17.871584, y: 9.491821}
+        - {x: 6.871584, y: 22.491821}
+    - name: Vegeta_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2736
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.409836, y: 21.991821}
+        - {x: -16.409836, y: 6.9918213}
+        - {x: -16.409836, y: -21.008179}
+        - {x: 17.590164, y: -21.008179}
+        - {x: 17.590164, y: 15.991821}
+        - {x: 7.590164, y: 21.991821}
+    - name: Vegeta_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2736
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.63752, y: 21.491821}
+        - {x: -16.63752, y: 5.4918213}
+        - {x: -16.63752, y: -20.508179}
+        - {x: 17.36248, y: -20.508179}
+        - {x: 17.36248, y: 12.491821}
+        - {x: 7.36248, y: 21.491821}
+    - name: Vegeta_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2736
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.44809, y: 22.491821}
+        - {x: -16.44809, y: 15.491821}
+        - {x: -16.44809, y: -21.508179}
+        - {x: 17.55191, y: -21.508179}
+        - {x: 17.55191, y: 15.491821}
+        - {x: 10.55191, y: 22.491821}
+    - name: Vegeta_4
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2736
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.324219, y: 10.491821}
+        - {x: 13.324219, y: 10.491821}
+        - {x: 6.3242188, y: 19.491821}
+        - {x: 2.3242188, y: 22.491821}
+        - {x: -13.675781, y: 22.491821}
+        - {x: -17.675781, y: 11.491821}
+        - {x: -17.675781, y: -21.508179}
+        - {x: 18.324219, y: -21.508179}
+        - {x: 18.324219, y: 7.4918213}
+    - name: Vegeta_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2736
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.064667, y: 22.491821}
+        - {x: -16.064667, y: 8.491821}
+        - {x: -19.064667, y: -8.508179}
+        - {x: -19.064667, y: -21.508179}
+        - {x: 19.935333, y: -21.508179}
+        - {x: 19.935333, y: 22.491821}
+    - name: Vegeta_6
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2736
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.619293, y: 22.491821}
+        - {x: -17.619293, y: 14.491821}
+        - {x: -17.619293, y: -21.508179}
+        - {x: 18.380707, y: -21.508179}
+        - {x: 18.380707, y: 18.491821}
+        - {x: 16.380707, y: 22.491821}
+    - name: Vegeta_7
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2736
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.346985, y: 22.491821}
+        - {x: -17.346985, y: 2.4918213}
+        - {x: -17.346985, y: -21.508179}
+        - {x: 17.653015, y: -21.508179}
+        - {x: 17.653015, y: 16.491821}
+        - {x: 6.653015, y: 22.491821}
+    - name: Vegeta_8
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2736
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.628418, y: 21.991821}
+        - {x: -10.628418, y: 19.991821}
+        - {x: -17.628418, y: -8.008179}
+        - {x: -17.628418, y: -21.008179}
+        - {x: 18.371582, y: -21.008179}
+        - {x: 18.371582, y: 18.991821}
+        - {x: 9.371582, y: 21.991821}
+    - name: Vegeta_9
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2736
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.046448, y: 22.491821}
+        - {x: -17.046448, y: 6.4918213}
+        - {x: -17.046448, y: -21.508179}
+        - {x: 17.953552, y: -21.508179}
+        - {x: 17.953552, y: 18.491821}
+        - {x: 9.953552, y: 22.491821}
+    - name: Vegeta_10
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 2736
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.225891, y: -20.508179}
+        - {x: 20.225891, y: 14.491821}
+        - {x: 13.225891, y: 22.491821}
+        - {x: -11.774109, y: 22.491821}
+        - {x: -19.774109, y: 1.4918213}
+        - {x: -19.774109, y: -20.508179}
+        - {x: -18.774109, y: -21.508179}
+        - {x: -10.774109, y: -21.508179}
+        - {x: -8.774109, y: -20.508179}
+        - {x: 12.225891, y: -21.508179}
+        - {x: 19.225891, y: -21.508179}
+    - name: Vegeta_11
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2736
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.229492, y: 17.491821}
+        - {x: 8.229492, y: 22.491821}
+        - {x: -10.770508, y: 22.491821}
+        - {x: -16.770508, y: 1.4918213}
+        - {x: -16.770508, y: -20.508179}
+        - {x: -14.770508, y: -21.508179}
+        - {x: -6.770508, y: -21.508179}
+        - {x: -3.7705078, y: -17.508179}
+        - {x: 5.229492, y: -21.508179}
+        - {x: 17.229492, y: -21.508179}
+    - name: Vegeta_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2638
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2640
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5136642, y: 20.071045}
+        - {x: -16.513664, y: -3.928955}
+        - {x: -16.513664, y: -19.928955}
+        - {x: 10.486336, y: -19.928955}
+        - {x: 17.486336, y: -10.928955}
+        - {x: 17.486336, y: 17.071045}
+        - {x: 11.486336, y: 20.071045}
+    - name: Vegeta_14
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2641
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_15
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2631
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2637
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_17
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2635
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2640
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.281433, y: 21.571045}
+        - {x: -17.281433, y: 7.571045}
+        - {x: -17.281433, y: -21.428955}
+        - {x: 9.718567, y: -21.428955}
+        - {x: 17.718567, y: -9.428955}
+        - {x: 17.718567, y: 10.571045}
+        - {x: 12.718567, y: 21.571045}
+    - name: Vegeta_19
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2635
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_20
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2641
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2628
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_22
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2550
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2548
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.621132, y: 24.042847}
+        - {x: -16.621132, y: -2.9571533}
+        - {x: -16.621132, y: -22.957153}
+        - {x: 10.378868, y: -22.957153}
+        - {x: 17.378868, y: 0.04284668}
+        - {x: 17.378868, y: 23.042847}
+        - {x: 15.378868, y: 24.042847}
+    - name: Vegeta_24
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2555
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2551
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2548
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2552
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_28
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2552
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_29
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2551
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_30
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 2561
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2543
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_32
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2449
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2449
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.017303, y: -6.0473633}
+        - {x: 2.9826965, y: -20.047363}
+        - {x: 18.982697, y: -20.047363}
+        - {x: 18.982697, y: -3.0473633}
+        - {x: 11.982697, y: 12.952637}
+        - {x: 0.98269653, y: 21.952637}
+        - {x: -18.017303, y: 21.952637}
+    - name: Vegeta_34
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2449
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_35
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2441
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.7295074, y: 24.167603}
+        - {x: -14.270493, y: 24.167603}
+        - {x: -16.270493, y: 20.167603}
+        - {x: -16.270493, y: -4.8323975}
+        - {x: -15.270493, y: -6.8323975}
+        - {x: 7.7295074, y: -23.832397}
+        - {x: 13.729507, y: -23.832397}
+        - {x: 16.729507, y: -20.832397}
+        - {x: 16.729507, y: 0.16760254}
+        - {x: 15.729507, y: 13.167603}
+    - name: Vegeta_36
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2449
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_37
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2441
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_38
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2446
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_39
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2443
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.6156616, y: 23.113892}
+        - {x: -15.615662, y: 9.113892}
+        - {x: -16.615662, y: 1.1138916}
+        - {x: -16.615662, y: -21.886108}
+        - {x: -13.615662, y: -21.886108}
+        - {x: 17.384338, y: -0.8861084}
+        - {x: 17.384338, y: 13.113892}
+        - {x: 9.384338, y: 23.113892}
+    - name: Vegeta_40
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2449
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_41
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2454
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.85427856, y: 17.56836}
+        - {x: -22.145721, y: 0.5683594}
+        - {x: -22.145721, y: -16.43164}
+        - {x: 20.854279, y: -16.43164}
+        - {x: 23.854279, y: -11.431641}
+        - {x: 23.854279, y: 13.568359}
+        - {x: 19.854279, y: 17.56836}
+    - name: Vegeta_42
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2424
+        width: 4
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_43
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 2420
+        width: 6
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_44
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 2428
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_45
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 2432
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_46
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2407
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.279602, y: 19.581055}
+        - {x: -21.279602, y: -18.418945}
+        - {x: 21.720398, y: -18.418945}
+        - {x: 21.720398, y: 16.581055}
+        - {x: 17.720398, y: 19.581055}
+      - - {x: -12.279602, y: 15.581055}
+        - {x: -9.279602, y: 16.581055}
+        - {x: -9.279602, y: 19.581055}
+        - {x: -14.279602, y: 19.581055}
+        - {x: -14.279602, y: 17.581055}
+    - name: Vegeta_47
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2409
+        width: 4
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_48
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2400
+        width: 4
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_49
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 2402
+        width: 4
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_50
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 2406
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_51
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 2406
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_52
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 2424
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2370
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2377
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_55
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2367
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_56
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2374
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_57
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2364
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_58
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2371
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_59
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2364
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_60
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2371
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_61
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2364
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_62
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2356
+        width: 29
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_63
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2270
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_64
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2270
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.8023682, y: 22.51184}
+        - {x: -9.802368, y: 12.511841}
+        - {x: -9.802368, y: 7.511841}
+        - {x: -8.802368, y: 5.511841}
+        - {x: -20.802368, y: -10.488159}
+        - {x: -20.802368, y: -21.48816}
+        - {x: 20.197632, y: -21.48816}
+        - {x: 22.197632, y: -12.488159}
+        - {x: 22.197632, y: 10.511841}
+        - {x: 11.197632, y: 22.51184}
+    - name: Vegeta_65
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 2270
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_66
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2273
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.836975, y: 4.6812744}
+        - {x: 7.836975, y: 21.681274}
+        - {x: -4.163025, y: 21.681274}
+        - {x: -14.163025, y: 11.681274}
+        - {x: -22.163025, y: -8.318726}
+        - {x: -22.163025, y: -20.318726}
+        - {x: -8.163025, y: -20.318726}
+        - {x: 2.836975, y: -18.318726}
+        - {x: 22.836975, y: -9.318726}
+    - name: Vegeta_67
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2275
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_68
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2275
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.4699402, y: 20.127441}
+        - {x: -20.46994, y: 20.127441}
+        - {x: -20.46994, y: -7.8725586}
+        - {x: -11.46994, y: -19.872559}
+        - {x: 21.53006, y: -19.872559}
+        - {x: 21.53006, y: -8.872559}
+        - {x: 6.53006, y: 18.127441}
+    - name: Vegeta_69
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2272
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_70
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2277
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_71
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2273
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.843353, y: -9.318726}
+        - {x: -16.843353, y: -20.318726}
+        - {x: 20.156647, y: -20.318726}
+        - {x: 20.156647, y: 21.681274}
+        - {x: -14.843353, y: 21.681274}
+        - {x: -19.843353, y: 9.681274}
+    - name: Vegeta_72
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2265
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_73
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2264
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_74
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2189
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2190
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_76
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2192
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_77
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2192
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_78
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2194
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_79
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2182
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_80
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 2190
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_81
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2186
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.7850647, y: 24.768677}
+        - {x: -15.785065, y: 12.768677}
+        - {x: -17.785065, y: 4.7686768}
+        - {x: -17.785065, y: -20.231323}
+        - {x: -8.785065, y: -23.231323}
+        - {x: 18.214935, y: -23.231323}
+        - {x: 18.214935, y: 17.768677}
+        - {x: 10.214935, y: 24.768677}
+    - name: Vegeta_82
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2186
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.343353, y: -21.731323}
+        - {x: -9.343353, y: -21.731323}
+        - {x: 19.656647, y: -2.7313232}
+        - {x: 19.656647, y: 13.268677}
+        - {x: 18.656647, y: 15.268677}
+        - {x: 3.6566467, y: 23.268677}
+        - {x: -16.343353, y: 23.268677}
+        - {x: -19.343353, y: 21.268677}
+    - name: Vegeta_83
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2183
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_84
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2183
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_85
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2092
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_86
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2092
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.697632, y: 25.29419}
+        - {x: -7.302368, y: 25.29419}
+        - {x: -11.302368, y: 24.29419}
+        - {x: -18.302368, y: 12.294189}
+        - {x: -18.302368, y: -23.70581}
+        - {x: 0.69763184, y: -23.70581}
+        - {x: 19.697632, y: -4.7058105}
+        - {x: 19.697632, y: 22.29419}
+        - {x: 18.697632, y: 23.29419}
+    - name: Vegeta_87
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2092
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_88
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 2094
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.444443, y: 4.7404785}
+        - {x: 21.444443, y: 19.740479}
+        - {x: 20.444443, y: 20.740479}
+        - {x: 13.444443, y: 23.740479}
+        - {x: -12.555557, y: 23.740479}
+        - {x: -20.555557, y: 5.7404785}
+        - {x: -20.555557, y: -22.259521}
+        - {x: -18.555557, y: -23.259521}
+        - {x: -10.555557, y: -23.259521}
+        - {x: 9.444443, y: -13.2595215}
+        - {x: 10.444443, y: -1.2595215}
+    - name: Vegeta_89
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2095
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_90
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2092
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.693085, y: 25.29419}
+        - {x: -18.693085, y: 15.294189}
+        - {x: -18.693085, y: -23.70581}
+        - {x: -12.693085, y: -23.70581}
+        - {x: 11.306915, y: -17.70581}
+        - {x: 20.306915, y: -0.70581055}
+        - {x: 20.306915, y: 25.29419}
+    - name: Vegeta_91
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 2092
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_92
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2096
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_93
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2100
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_94
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2096
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_95
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2005
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_96
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2002
+        width: 25
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_97
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2002
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_98
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2002
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1998
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_100
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1998
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_101
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2012
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_102
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2001
+        width: 36
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_103
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 2011
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_104
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1885
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.306011, y: 25.60559}
+        - {x: -20.306011, y: 15.605591}
+        - {x: -20.306011, y: -6.394409}
+        - {x: -2.3060112, y: -25.39441}
+        - {x: 18.693989, y: -25.39441}
+        - {x: 21.693989, y: -15.394409}
+        - {x: 21.693989, y: 20.60559}
+        - {x: 20.693989, y: 25.60559}
+    - name: Vegeta_105
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1886
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.2486343, y: 25.828735}
+        - {x: -18.248634, y: 25.828735}
+        - {x: -21.248634, y: 22.828735}
+        - {x: -24.248634, y: 8.828735}
+        - {x: -24.248634, y: -7.1712646}
+        - {x: -16.248634, y: -24.171265}
+        - {x: -8.248634, y: -24.171265}
+        - {x: -6.2486343, y: -22.171265}
+        - {x: 24.751366, y: -9.171265}
+        - {x: 24.751366, y: 4.8287354}
+    - name: Vegeta_106
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1886
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.344261, y: 25.828735}
+        - {x: -20.344261, y: 18.828735}
+        - {x: -20.344261, y: -19.171265}
+        - {x: -18.344261, y: -24.171265}
+        - {x: 2.6557388, y: -24.171265}
+        - {x: 21.655739, y: -16.171265}
+        - {x: 21.655739, y: 1.8287354}
+        - {x: -8.344261, y: 25.828735}
+    - name: Vegeta_107
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1889
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_108
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1897
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_109
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1881
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.325134, y: 20.713135}
+        - {x: -19.325134, y: 6.713135}
+        - {x: -20.325134, y: -0.28686523}
+        - {x: -11.325134, y: -7.286865}
+        - {x: -3.3251343, y: -7.286865}
+        - {x: -9.325134, y: -8.286865}
+        - {x: -17.325134, y: -3.2868652}
+        - {x: -20.325134, y: -4.286865}
+        - {x: -20.325134, y: -16.286865}
+        - {x: -18.325134, y: -20.286865}
+        - {x: 11.674866, y: -20.286865}
+        - {x: 20.674866, y: -15.286865}
+        - {x: 20.674866, y: 20.713135}
+    - name: Vegeta_110
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1901
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_111
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1886
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.128418, y: 10.828735}
+        - {x: 8.128418, y: 20.828735}
+        - {x: -8.871582, y: 20.828735}
+        - {x: -16.871582, y: 14.828735}
+        - {x: -16.871582, y: -19.171265}
+        - {x: -13.871582, y: -19.171265}
+        - {x: -3.871582, y: -12.171265}
+        - {x: 5.128418, y: -19.171265}
+        - {x: 18.128418, y: -19.171265}
+    - name: Vegeta_112
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1888
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_113
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1885
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.875214, y: 22.60559}
+        - {x: 10.875214, y: 21.60559}
+        - {x: 4.8752136, y: 22.60559}
+        - {x: -25.124786, y: 22.60559}
+        - {x: -26.124786, y: 20.60559}
+        - {x: -26.124786, y: -20.39441}
+        - {x: -21.124786, y: -22.39441}
+        - {x: -2.1247864, y: -22.39441}
+        - {x: 5.8752136, y: -11.394409}
+        - {x: 26.875214, y: 16.60559}
+        - {x: 26.875214, y: 22.60559}
+    - name: Vegeta_114
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1885
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.002747, y: 19.10559}
+        - {x: 22.002747, y: 19.10559}
+        - {x: 0.002746582, y: 23.10559}
+        - {x: -22.997253, y: 23.10559}
+        - {x: -22.997253, y: -7.894409}
+        - {x: -16.997253, y: -22.89441}
+        - {x: -2.9972534, y: -22.89441}
+        - {x: 3.0027466, y: -13.894409}
+        - {x: 18.002747, y: 3.1055908}
+        - {x: 24.002747, y: 12.105591}
+    - name: Vegeta_115
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1883
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_116
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1885
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_117
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1889
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.246826, y: 26.498169}
+        - {x: -18.246826, y: 11.498169}
+        - {x: -18.246826, y: -5.501831}
+        - {x: -6.246826, y: -24.501831}
+        - {x: 6.753174, y: -24.501831}
+        - {x: 18.753174, y: -17.501831}
+        - {x: 18.753174, y: 19.498169}
+        - {x: 14.753174, y: 26.498169}
+    - name: Vegeta_118
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1894
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_119
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1881
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_120
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1788
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_121
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1783
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_122
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1778
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.621132, y: 19.730469}
+        - {x: -16.621132, y: 19.730469}
+        - {x: -16.621132, y: -18.269531}
+        - {x: 13.378868, y: -18.269531}
+        - {x: 17.378868, y: -17.269531}
+        - {x: 17.378868, y: -1.2695312}
+        - {x: 6.378868, y: 14.730469}
+    - name: Vegeta_123
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1771
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_124
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1788
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_125
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1780
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_126
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1770
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.23040771, y: 18.445312}
+        - {x: -6.2304077, y: 16.445312}
+        - {x: -13.230408, y: 4.4453125}
+        - {x: -19.230408, y: -4.5546875}
+        - {x: -19.230408, y: -16.554688}
+        - {x: 10.769592, y: -16.554688}
+        - {x: 19.769592, y: -14.5546875}
+        - {x: 19.769592, y: 3.4453125}
+        - {x: 10.769592, y: 18.445312}
+    - name: Vegeta_127
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1771
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_128
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1776
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.1530151, y: 23.28418}
+        - {x: -11.153015, y: 8.28418}
+        - {x: -17.153015, y: -13.71582}
+        - {x: -17.153015, y: -22.71582}
+        - {x: 9.846985, y: -22.71582}
+        - {x: 18.846985, y: -19.71582}
+        - {x: 18.846985, y: 19.28418}
+        - {x: 17.846985, y: 23.28418}
+    - name: Vegeta_129
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1776
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_130
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1774
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.1621094, y: 23.33789}
+        - {x: -18.16211, y: 17.33789}
+        - {x: -18.16211, y: -21.66211}
+        - {x: 12.837891, y: -21.66211}
+        - {x: 19.83789, y: -12.662109}
+        - {x: 19.83789, y: 23.33789}
+    - name: Vegeta_131
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1774
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.279602, y: 24.83789}
+        - {x: -8.720398, y: 24.83789}
+        - {x: -15.720398, y: 11.837891}
+        - {x: -21.720398, y: -8.162109}
+        - {x: -21.720398, y: -23.16211}
+        - {x: -3.720398, y: -23.16211}
+        - {x: 10.279602, y: -20.16211}
+        - {x: 23.279602, y: 5.8378906}
+        - {x: 23.279602, y: 21.83789}
+    - name: Vegeta_132
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1770
+        width: 29
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_133
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1771
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_134
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1785
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_135
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1784
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.955383, y: 21.569214}
+        - {x: -8.044617, y: 21.569214}
+        - {x: -17.044617, y: 9.569214}
+        - {x: -17.044617, y: -10.430786}
+        - {x: -12.044617, y: -18.430786}
+        - {x: -3.0446167, y: -21.430786}
+        - {x: 12.955383, y: -21.430786}
+        - {x: 17.955383, y: -16.430786}
+        - {x: 17.955383, y: 5.569214}
+        - {x: 12.955383, y: 18.569214}
+    - name: Vegeta_136
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1778
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_137
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1653
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.582878, y: 36.338745}
+        - {x: -23.582878, y: 33.338745}
+        - {x: -23.582878, y: -35.661255}
+        - {x: 21.417122, y: -35.661255}
+        - {x: 24.417122, y: -24.661255}
+        - {x: 24.417122, y: 31.338745}
+        - {x: 21.417122, y: 36.338745}
+    - name: Vegeta_138
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1666
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_139
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1668
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_140
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1668
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_141
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1673
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.977234, y: 21.801514}
+        - {x: -14.977234, y: 7.8015137}
+        - {x: -18.977234, y: -3.1984863}
+        - {x: -18.977234, y: -20.198486}
+        - {x: 12.022766, y: -20.198486}
+        - {x: 20.022766, y: -5.1984863}
+        - {x: 20.022766, y: 17.801514}
+        - {x: 14.022766, y: 21.801514}
+    - name: Vegeta_142
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1669
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_143
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1672
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.575592, y: 22.57837}
+        - {x: -12.424408, y: 22.57837}
+        - {x: -17.424408, y: 11.578369}
+        - {x: -17.424408, y: -22.42163}
+        - {x: 18.575592, y: -22.42163}
+        - {x: 18.575592, y: -9.421631}
+        - {x: 11.575592, y: 15.578369}
+    - name: Vegeta_144
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1676
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_145
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1666
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.9335022, y: 17.739502}
+        - {x: -18.933502, y: 4.739502}
+        - {x: -18.933502, y: -16.260498}
+        - {x: 7.066498, y: -16.260498}
+        - {x: 9.066498, y: -15.260498}
+        - {x: 20.066498, y: -12.260498}
+        - {x: 20.066498, y: 1.739502}
+        - {x: 12.066498, y: 17.739502}
+    - name: Vegeta_146
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1554
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_147
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1554
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.367027, y: 10.748657}
+        - {x: 5.3670273, y: 24.748657}
+        - {x: -9.632973, y: 24.748657}
+        - {x: -16.632973, y: 15.748657}
+        - {x: -16.632973, y: -22.251343}
+        - {x: -14.632973, y: -23.251343}
+        - {x: -7.6329727, y: -23.251343}
+        - {x: 8.367027, y: -14.251343}
+        - {x: 18.367027, y: -0.25134277}
+    - name: Vegeta_148
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1554
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_149
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1560
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.671219, y: 21.587402}
+        - {x: -16.671219, y: 17.587402}
+        - {x: -16.671219, y: -21.412598}
+        - {x: 18.328781, y: -21.412598}
+        - {x: 18.328781, y: 18.587402}
+        - {x: 14.328781, y: 21.587402}
+    - name: Vegeta_150
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1560
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_151
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1560
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_152
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1557
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_153
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1557
+        width: 38
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_154
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1557
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.36795, y: 22.91809}
+        - {x: -0.63204956, y: 24.91809}
+        - {x: -8.63205, y: 24.91809}
+        - {x: -17.63205, y: 17.91809}
+        - {x: -17.63205, y: -7.081909}
+        - {x: -15.63205, y: -13.081909}
+        - {x: -2.6320496, y: -23.08191}
+        - {x: 6.3679504, y: -23.08191}
+        - {x: 8.36795, y: -4.081909}
+        - {x: 18.36795, y: 10.918091}
+        - {x: 18.36795, y: 20.91809}
+    - name: Vegeta_155
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1565
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_156
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1565
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_157
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1567
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_158
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1586
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_159
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1590
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_160
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1590
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_161
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1585
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_162
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1583
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_163
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1583
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_164
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1583
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_165
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1599
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_166
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1597
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_167
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1607
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_168
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1592
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_169
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1607
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_170
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1588
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_171
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1597
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_172
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1596
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_173
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1583
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_174
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1585
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_175
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1451
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_176
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1462
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_177
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1456
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_178
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1452
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_179
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1449
+        width: 32
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_180
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1448
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_181
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1452
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_182
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1456
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_183
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1449
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_184
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1453
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.553741, y: -11.287842}
+        - {x: 19.553741, y: -6.287842}
+        - {x: 16.553741, y: -2.2878418}
+        - {x: 14.553741, y: -0.2878418}
+        - {x: 19.553741, y: 1.7121582}
+        - {x: 19.553741, y: 9.712158}
+        - {x: 18.553741, y: 11.712158}
+        - {x: 4.5537415, y: 25.712158}
+        - {x: -8.446259, y: 25.712158}
+        - {x: -18.446259, y: 16.712158}
+        - {x: -18.446259, y: -10.287842}
+        - {x: -13.446259, y: -24.287842}
+        - {x: -7.4462585, y: -24.287842}
+        - {x: -6.4462585, y: -23.287842}
+        - {x: -1.4462585, y: -17.287842}
+        - {x: 18.553741, y: -12.287842}
+    - name: Vegeta_185
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1453
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.335144, y: 24.712158}
+        - {x: -18.335144, y: 6.712158}
+        - {x: -18.335144, y: -23.287842}
+        - {x: -1.335144, y: -23.287842}
+        - {x: 11.664856, y: -20.287842}
+        - {x: 19.664856, y: -10.287842}
+        - {x: 19.664856, y: 20.712158}
+        - {x: 14.664856, y: 24.712158}
+    - name: Vegeta_186
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1451
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_187
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1452
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_188
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1451
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_189
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1452
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_190
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1491
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_191
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1344
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_192
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1355
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_193
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1351
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_194
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1383
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_195
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1355
+        width: 195
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.369766, y: 23.345154}
+        - {x: -70.36977, y: 15.345154}
+        - {x: -70.36977, y: -21.654846}
+        - {x: 57.630234, y: -21.654846}
+        - {x: 71.63023, y: -20.654846}
+        - {x: 71.63023, y: 23.345154}
+    - name: Vegeta_196
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1344
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_197
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1342
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_198
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1346
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_199
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1351
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_200
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1371
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_201
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1348
+        width: 120
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_202
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1348
+        width: 118
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_203
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1375
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_204
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1372
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_205
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1375
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_206
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1369
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_207
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1365
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_208
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1361
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_209
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1365
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_210
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1361
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_211
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1351
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_212
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1354
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_213
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1355
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_214
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1355
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_215
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1348
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_216
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1348
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_217
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1348
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_218
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1253
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_219
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1252
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_220
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1253
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_221
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1254
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_222
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1268
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_223
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1268
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_224
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_225
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1267
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_226
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1283
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_227
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1282
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_228
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1290
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_229
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1296
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_230
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1290
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_231
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1272
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_232
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1279
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_233
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1284
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_234
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1267
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_235
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1275
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_236
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1268
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_237
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1155
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_238
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1158
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_239
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1152
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_240
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1145
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_241
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1145
+        width: 27
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_242
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1156
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.216751, y: -8.058289}
+        - {x: 30.216751, y: -8.058289}
+        - {x: 30.216751, y: 21.941711}
+        - {x: 12.216751, y: 25.941711}
+        - {x: -22.783249, y: 25.941711}
+        - {x: -29.783249, y: 21.941711}
+        - {x: -29.783249, y: -17.058289}
+        - {x: -28.783249, y: -24.058289}
+        - {x: 28.216751, y: -24.058289}
+        - {x: 30.216751, y: -17.058289}
+        - {x: 30.216751, y: -8.058289}
+    - name: Vegeta_243
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1140
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.46994, y: 36.371582}
+        - {x: -23.46994, y: 31.371582}
+        - {x: -23.46994, y: -31.628418}
+        - {x: -19.46994, y: -30.628418}
+        - {x: -16.46994, y: -29.628418}
+        - {x: -9.46994, y: -27.628418}
+        - {x: -8.46994, y: -33.628418}
+        - {x: -2.4699402, y: -35.628418}
+        - {x: 24.53006, y: -35.628418}
+        - {x: 24.53006, y: 24.371582}
+        - {x: 12.53006, y: 36.371582}
+    - name: Vegeta_244
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1151
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_245
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1158
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.7395325, y: 22.388}
+        - {x: -20.739532, y: 1.3880005}
+        - {x: -20.739532, y: -21.612}
+        - {x: 4.2604675, y: -21.612}
+        - {x: 15.260468, y: -19.612}
+        - {x: 21.260468, y: -4.6119995}
+        - {x: 21.260468, y: 8.3880005}
+        - {x: 6.2604675, y: 22.388}
+    - name: Vegeta_246
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1156
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_247
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1155
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.632965, y: 24.218567}
+        - {x: -23.632965, y: 12.218567}
+        - {x: -23.632965, y: -16.781433}
+        - {x: -21.632965, y: -23.781433}
+        - {x: 12.367035, y: -23.781433}
+        - {x: 25.367035, y: -20.781433}
+        - {x: 25.367035, y: 0.2185669}
+        - {x: -7.632965, y: 24.218567}
+    - name: Vegeta_248
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1155
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.621155, y: -20.781433}
+        - {x: -19.621155, y: -23.781433}
+        - {x: 10.378845, y: -23.781433}
+        - {x: 21.378845, y: -18.781433}
+        - {x: 21.378845, y: 3.218567}
+        - {x: 4.378845, y: 24.218567}
+        - {x: -20.621155, y: 24.218567}
+    - name: Vegeta_249
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1151
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_250
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1152
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_251
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1151
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.14209, y: 24.32605}
+        - {x: -8.85791, y: 24.32605}
+        - {x: -18.85791, y: 8.32605}
+        - {x: -18.85791, y: -23.67395}
+        - {x: -5.85791, y: -23.67395}
+        - {x: 14.14209, y: -18.67395}
+        - {x: 19.14209, y: -3.6739502}
+        - {x: 19.14209, y: 21.32605}
+    - name: Vegeta_252
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1156
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_253
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1055
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.371584, y: 23.405273}
+        - {x: -23.628416, y: 23.405273}
+        - {x: -26.628416, y: 22.405273}
+        - {x: -26.628416, y: 4.4052734}
+        - {x: -23.628416, y: -0.59472656}
+        - {x: -26.628416, y: -11.594727}
+        - {x: -25.628416, y: -15.594727}
+        - {x: -22.628416, y: -17.594727}
+        - {x: -12.628416, y: -21.594727}
+        - {x: -5.628416, y: -21.594727}
+        - {x: -1.6284161, y: -14.594727}
+        - {x: 21.371584, y: 11.405273}
+        - {x: 27.371584, y: 19.405273}
+    - name: Vegeta_254
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1055
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.222221, y: 23.405273}
+        - {x: 17.222221, y: 24.405273}
+        - {x: -22.777779, y: 24.405273}
+        - {x: -22.777779, y: -0.59472656}
+        - {x: -12.777779, y: -22.594727}
+        - {x: -5.7777786, y: -22.594727}
+        - {x: -1.7777786, y: -18.594727}
+        - {x: 2.2222214, y: -12.594727}
+        - {x: 23.222221, y: 12.405273}
+    - name: Vegeta_255
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1055
+        width: 24
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_256
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1062
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_257
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1055
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_258
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1058
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.14299, y: 25.074707}
+        - {x: -18.14299, y: 24.074707}
+        - {x: -18.14299, y: -4.925293}
+        - {x: -4.14299, y: -24.925293}
+        - {x: 9.85701, y: -24.925293}
+        - {x: 18.85701, y: -21.925293}
+        - {x: 18.85701, y: 25.074707}
+    - name: Vegeta_259
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1065
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_260
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1051
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_261
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1058
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.442627, y: -9.425293}
+        - {x: 30.442627, y: -9.425293}
+        - {x: 30.442627, y: 16.574707}
+        - {x: 14.442627, y: 24.574707}
+        - {x: -22.557373, y: 24.574707}
+        - {x: -29.557373, y: 22.574707}
+        - {x: -29.557373, y: -16.425293}
+        - {x: -22.557373, y: -23.425293}
+        - {x: -12.557373, y: -24.425293}
+        - {x: 28.442627, y: -24.425293}
+        - {x: 30.442627, y: -19.425293}
+        - {x: 30.442627, y: -9.425293}
+    - name: Vegeta_262
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1073
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_263
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1061
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.2969055, y: 22.74408}
+        - {x: -8.7030945, y: 22.74408}
+        - {x: -15.7030945, y: 19.74408}
+        - {x: -17.703094, y: -0.2559204}
+        - {x: -17.703094, y: -22.25592}
+        - {x: 18.296906, y: -22.25592}
+        - {x: 18.296906, y: -8.25592}
+        - {x: 9.2969055, y: 15.74408}
+    - name: Vegeta_264
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1065
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_265
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1055
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.787781, y: 17.905273}
+        - {x: -4.212219, y: 17.905273}
+        - {x: -19.21222, y: 1.9052734}
+        - {x: -19.21222, y: -16.094727}
+        - {x: 19.78778, y: -16.094727}
+        - {x: 19.78778, y: 6.9052734}
+        - {x: 17.78778, y: 15.905273}
+    - name: Vegeta_266
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1055
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_267
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1060
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.8861694, y: 22.520935}
+        - {x: -7.1138306, y: 22.520935}
+        - {x: -16.11383, y: 18.520935}
+        - {x: -17.11383, y: 13.520935}
+        - {x: -17.11383, y: -21.479065}
+        - {x: 16.88617, y: -21.479065}
+        - {x: 17.88617, y: -6.479065}
+        - {x: 17.88617, y: 12.520935}
+    - name: Vegeta_268
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1060
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_269
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1060
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_270
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1046
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_271
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 954
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_272
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 956
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_273
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 953
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.738617, y: 22.64569}
+        - {x: -10.261383, y: 22.64569}
+        - {x: -16.261383, y: 19.64569}
+        - {x: -16.261383, y: -19.35431}
+        - {x: -15.261383, y: -22.35431}
+        - {x: 6.738617, y: -22.35431}
+        - {x: 16.738617, y: -9.354309}
+        - {x: 16.738617, y: 6.645691}
+        - {x: 13.738617, y: 11.645691}
+    - name: Vegeta_274
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 957
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_275
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 974
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_276
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 946
+        width: 195
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70.84517, y: 22.083801}
+        - {x: -70.84517, y: -21.916199}
+        - {x: 57.15483, y: -21.916199}
+        - {x: 71.15483, y: -19.916199}
+        - {x: 71.15483, y: 14.083801}
+        - {x: 68.15483, y: 22.083801}
+    - name: Vegeta_277
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 923
+        width: 263
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.31784, y: 47.95172}
+        - {x: -95.31784, y: 38.95172}
+        - {x: -95.31784, y: -26.048279}
+        - {x: -46.31784, y: -47.04828}
+        - {x: 93.68216, y: -47.04828}
+        - {x: 95.68216, y: -45.04828}
+        - {x: 95.68216, y: 39.95172}
+        - {x: 87.68216, y: 47.95172}
+    - name: Vegeta_278
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 942
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_279
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 961
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_280
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 812
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.417122, y: 36.18396}
+        - {x: -12.582878, y: 36.18396}
+        - {x: -20.582878, y: 32.18396}
+        - {x: -23.582878, y: 24.18396}
+        - {x: -23.582878, y: -33.81604}
+        - {x: -22.582878, y: -35.81604}
+        - {x: 24.417122, y: -35.81604}
+        - {x: 24.417122, y: 17.18396}
+        - {x: 10.417122, y: 32.18396}
+    - name: Vegeta_281
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 825
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_282
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 823
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_283
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 823
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.742264, y: 25.638428}
+        - {x: -15.257736, y: 25.638428}
+        - {x: -16.257736, y: 22.638428}
+        - {x: -16.257736, y: -25.361572}
+        - {x: 7.742264, y: -25.361572}
+        - {x: 9.742264, y: -18.361572}
+        - {x: 16.742264, y: 0.63842773}
+        - {x: 16.742264, y: 22.638428}
+    - name: Vegeta_284
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 823
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_285
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 830
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.328781, y: 24.200378}
+        - {x: -23.328781, y: 16.200378}
+        - {x: -23.328781, y: -12.799622}
+        - {x: -17.328781, y: -23.799622}
+        - {x: 19.671219, y: -23.799622}
+        - {x: 23.671219, y: -15.799622}
+        - {x: 23.671219, y: 20.200378}
+        - {x: 20.671219, y: 24.200378}
+    - name: Vegeta_286
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 834
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.147552, y: 20.092896}
+        - {x: -19.147552, y: 18.092896}
+        - {x: -19.147552, y: -9.9071045}
+        - {x: -13.1475525, y: -19.907104}
+        - {x: 11.8524475, y: -19.907104}
+        - {x: 20.852448, y: -10.9071045}
+        - {x: 20.852448, y: 20.092896}
+    - name: Vegeta_287
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 711
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_288
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 714
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_289
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 708
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_290
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 711
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_291
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 715
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_292
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 708
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_293
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 708
+        width: 28
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_294
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 711
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_295
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 708
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_296
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 713
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_297
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 715
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_298
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 708
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_299
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 679
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.26593, y: 47.507294}
+        - {x: -40.26593, y: 32.507294}
+        - {x: -40.26593, y: -47.492706}
+        - {x: 41.73407, y: -47.492706}
+        - {x: 41.73407, y: 40.507294}
+        - {x: 21.73407, y: 47.507294}
+    - name: Vegeta_300
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 679
+        width: 124
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.348816, y: -11.992706}
+        - {x: 46.348816, y: -9.992706}
+        - {x: 46.348816, y: 30.007294}
+        - {x: 34.348816, y: 47.007294}
+        - {x: -34.651184, y: 47.007294}
+        - {x: -44.651184, y: 16.007294}
+        - {x: -44.651184, y: -42.992706}
+        - {x: -35.651184, y: -46.992706}
+        - {x: 36.348816, y: -46.992706}
+        - {x: 46.348816, y: -27.992706}
+        - {x: 46.348816, y: -13.992706}
+        - {x: 42.348816, y: -11.992706}
+    - name: Vegeta_301
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 681
+        width: 62
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_302
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 591
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_303
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 588
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_304
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 579
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_305
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 588
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_306
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 585
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.855194, y: 24.532776}
+        - {x: -23.855194, y: 15.532776}
+        - {x: -23.855194, y: -21.467224}
+        - {x: -17.855194, y: -24.467224}
+        - {x: 17.144806, y: -24.467224}
+        - {x: 25.144806, y: -14.467224}
+        - {x: 25.144806, y: 16.532776}
+        - {x: 14.144806, y: 24.532776}
+    - name: Vegeta_307
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 617
+        width: 53
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_308
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 630
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_309
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 608
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_310
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 594
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_311
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 473
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_312
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 472
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_313
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 473
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.225861, y: 0.54190063}
+        - {x: 5.2258606, y: 1.5419006}
+        - {x: 14.225861, y: 0.54190063}
+        - {x: 18.22586, y: 2.5419006}
+        - {x: 18.22586, y: 8.541901}
+        - {x: 12.225861, y: 20.5419}
+        - {x: 0.2258606, y: 20.5419}
+        - {x: -13.774139, y: 14.541901}
+        - {x: -17.77414, y: 11.541901}
+        - {x: -17.77414, y: -20.4581}
+        - {x: 18.22586, y: -20.4581}
+        - {x: 18.22586, y: -11.458099}
+        - {x: 14.225861, y: -2.4580994}
+    - name: Vegeta_314
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 469
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_315
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 473
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_316
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 480
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_317
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 479
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_318
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 476
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_319
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 480
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_320
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 480
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.755005, y: -19.39618}
+        - {x: 16.755005, y: 11.603821}
+        - {x: 12.755005, y: 19.60382}
+        - {x: -10.244995, y: 19.60382}
+        - {x: -16.244995, y: 13.603821}
+        - {x: -16.244995, y: -19.39618}
+    - name: Vegeta_321
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 480
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_322
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 487
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_323
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_324
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 386
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_325
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 388
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_326
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 388
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_327
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 399
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_328
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 408
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_329
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 392
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_330
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 391
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_331
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 391
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_332
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 399
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_333
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 410
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_334
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 411
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_335
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 317
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.520947, y: 17.233154}
+        - {x: -21.520947, y: 3.2331543}
+        - {x: -18.520947, y: -0.7668457}
+        - {x: -0.5209465, y: -16.766846}
+        - {x: 19.479053, y: -16.766846}
+        - {x: 22.479053, y: -15.766846}
+        - {x: 22.479053, y: 12.233154}
+        - {x: 18.479053, y: 17.233154}
+    - name: Vegeta_336
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 317
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.124771, y: 17.733154}
+        - {x: -18.124771, y: 12.733154}
+        - {x: -24.124771, y: 7.7331543}
+        - {x: -24.124771, y: -1.2668457}
+        - {x: -20.124771, y: -6.2668457}
+        - {x: -4.124771, y: -8.266846}
+        - {x: 8.875229, y: -17.266846}
+        - {x: 24.875229, y: -17.266846}
+        - {x: 24.875229, y: 8.733154}
+        - {x: 13.875229, y: 17.733154}
+    - name: Vegeta_337
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 323
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_338
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 317
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_339
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 328
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_340
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 334
+        width: 67
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_341
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 324
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_342
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 313
+        width: 69
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_343
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 323
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_344
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 204
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_345
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 204
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_346
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 204
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_347
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 204
+        width: 30
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_348
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 204
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_349
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 208
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_350
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 208
+        width: 43
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_351
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 208
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_352
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 211
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_353
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 212
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vegeta_354
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 10
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.309654, y: 22.23133}
+        - {x: 4.309654, y: 30.23133}
+        - {x: 1.3096542, y: 24.23133}
+        - {x: 0.30965424, y: 21.23133}
+        - {x: 0.30965424, y: 16.23133}
+        - {x: 0.30965424, y: 34.23133}
+        - {x: -1.6903458, y: 36.23133}
+        - {x: -3.6903458, y: 51.23133}
+        - {x: -8.690346, y: 61.23133}
+        - {x: -49.690346, y: 61.23133}
+        - {x: -60.690346, y: 60.23133}
+        - {x: -60.690346, y: -60.76867}
+        - {x: 57.309654, y: -60.76867}
+        - {x: 61.309654, y: -55.76867}
+        - {x: 61.309654, y: -27.76867}
+        - {x: 60.309654, y: -26.76867}
+    - name: Vegeta_355
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 10
+        width: 384
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.151184, y: 65.23133}
+        - {x: 43.151184, y: 64.23133}
+        - {x: 43.151184, y: 42.23133}
+        - {x: -137.84882, y: 42.23133}
+        - {x: -138.84882, y: 41.23133}
+        - {x: -138.84882, y: -64.76867}
+        - {x: 139.15118, y: -64.76867}
+        - {x: 139.15118, y: 65.23133}
+    - name: Vegeta_356
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 10
+        width: 462
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.057373, y: -24.76867}
+        - {x: 22.057373, y: 66.23133}
+        - {x: 21.057373, y: 67.23133}
+        - {x: -166.94263, y: 67.23133}
+        - {x: -166.94263, y: -66.76867}
+        - {x: 168.05737, y: -66.76867}
+        - {x: 168.05737, y: -25.76867}
+        - {x: 167.05737, y: -24.76867}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
