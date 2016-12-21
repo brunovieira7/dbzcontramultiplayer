@@ -12,6 +12,7 @@ public class Player : NetworkBehaviour  {
 	public float speed;
 	private Skill usingSkill;
 	private float timer;
+	[SyncVar] public bool facingLeft;
 
 	// Use this for initialization
 	void Start () {
@@ -19,8 +20,9 @@ public class Player : NetworkBehaviour  {
 		rb2D = GetComponent <Rigidbody2D> ();
 		health = 10;
 		timer = 0f;
+		facingLeft = false;
 
-		if (GetComponent<NetworkView>().isMine) {
+		if (isLocalPlayer && GetComponent<NetworkView>().isMine) {
 			GameObject myCam = GameObject.Find ("Main Camera");
 			var script = myCam.GetComponent<CameraController> ();
 			script.player = gameObject;
@@ -29,7 +31,7 @@ public class Player : NetworkBehaviour  {
 
 	// Update is called once per frame
 	void Update () {
-		//Debug.Log ("local:" + isLocalPlayer + " server:" + isServer);
+		flip ();
 		if (!isLocalPlayer) {
 		    return;
 		}
@@ -48,7 +50,7 @@ public class Player : NetworkBehaviour  {
 
  			animator.SetTrigger ("Cast");
 
-			changeDirection(direction.x);
+			CmdChangeDirection(direction.x);
 
 
 		}
@@ -67,6 +69,17 @@ public class Player : NetworkBehaviour  {
 
 	}
 
+	void flip() {
+		//Debug.Log ("local:" + isLocalPlayer + " server:" + isServer + " flipme:" + facingLeft);
+		Vector3 currScale = transform.localScale;
+		if ((facingLeft && currScale.x > 0) || (!facingLeft && currScale.x < 0)) {
+			//Debug.Log ("local:" + isLocalPlayer + " server:" + isServer + " flipme:" + facingLeft);
+
+			currScale.x *= -1;
+			transform.localScale = currScale;
+		}
+	}
+
 	void tryWalking() {
 		if (usingSkill == null) {
 			float horizontal = Input.GetAxisRaw ("Horizontal");
@@ -78,19 +91,21 @@ public class Player : NetworkBehaviour  {
 				animator.SetTrigger ("Idle");
 			}
 
-			changeDirection (horizontal);
+			CmdChangeDirection (horizontal);
 
 			rb2D.velocity = new Vector2 (horizontal * speed, vertical * speed);
 		} else {
 			rb2D.velocity = new Vector2 (0f,0f);
 		}
 	}
-		
-	void changeDirection ( float horizontal) {
+
+	[Command]
+	void CmdChangeDirection ( float horizontal) {
 		if ( (horizontal < 0 && transform.localScale.x > 0) || (horizontal > 0 && transform.localScale.x < 0) ) {
 			Vector3 currScale = transform.localScale;
 			currScale.x *= -1;
 			transform.localScale = currScale;
+			facingLeft = !facingLeft;
 		}
 	}
 
