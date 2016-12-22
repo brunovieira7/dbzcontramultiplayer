@@ -14,6 +14,8 @@ public class Player : NetworkBehaviour  {
 	private float timer;
 	[SyncVar] public bool facingLeft;
 
+	public AudioClip shoot;
+
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator>();
@@ -111,6 +113,7 @@ public class Player : NetworkBehaviour  {
 
    public void TakeDamage(int amount)
     {
+		animator.SetTrigger ("Damage");
         health -= amount;
     }
 
@@ -131,6 +134,7 @@ public class Player : NetworkBehaviour  {
            //  direction.Normalize();
 
 			script.fireBullet(position);
+			SoundManager.instance.RandomizeSfx (shoot);
 		}
 
 		NetworkServer.Spawn (instance);

@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class Bullet : MonoBehaviour {
+public class Bullet : NetworkBehaviour {
 
 	private Rigidbody2D rb2D;
 	private Vector2 end;
 	public float speed;
+	public GameObject explosion;
+	public AudioClip explosionSound;
 
 	// Use this for initialization
 	void Start () {
@@ -25,19 +28,33 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D collision)
     {
+		GameObject hit = collision.gameObject;
 
-    	 GameObject hit = collision.gameObject;
-    	 Debug.Log(hit);
-        Player player = hit.GetComponent<Player>();
+		//Debug.Log ("===" + hit.tag);
+		if (hit.tag == "Player") {
+			Debug.Log (hit);
+			Player player = hit.GetComponent<Player> ();
 
-        Debug.Log("==="+player);
-        if (player  != null) {
-        	player.TakeDamage(1);
-			Debug.Log("hELATH" + player.health);
-        }
+			Debug.Log ("===" + player);
+			if (player != null) {
+				player.TakeDamage (1);
+				//Debug.Log ("hELATH" + player.health);
+			}
+		} else if (hit.tag == "bullet") {
+			CmdExplode (hit.transform.position);
+
+		}
 		//Debug.Log("collided" );
-        Destroy(gameObject);
+		Destroy(gameObject);
     }
 
+	[Command]
+	void CmdExplode(Vector3 position) {
+		Vector3 start = new Vector3 (position.x, position.y, 0f);
+		GameObject instance = Instantiate (explosion, start, Quaternion.identity) as GameObject;
 
+		Debug.Log("---exploding" + instance);
+		SoundManager.instance.RandomizeSfx (explosionSound);
+		NetworkServer.Spawn (instance);
+	}
 }
