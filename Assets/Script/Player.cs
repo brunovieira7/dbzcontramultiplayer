@@ -14,6 +14,10 @@ public class Player : NetworkBehaviour  {
 	private float timer;
 	[SyncVar] public bool facingLeft;
 
+	private bool takingDamage;
+	private float timeDmg = 0f;
+	private float timeDmgTotal = 1f;
+
 	public AudioClip shoot;
 
 	// Use this for initialization
@@ -23,6 +27,7 @@ public class Player : NetworkBehaviour  {
 		health = 10;
 		timer = 0f;
 		facingLeft = false;
+		takingDamage = false;
 
 		if (isLocalPlayer && GetComponent<NetworkView>().isMine) {
 			GameObject myCam = GameObject.Find ("Main Camera");
@@ -38,7 +43,16 @@ public class Player : NetworkBehaviour  {
 		    return;
 		}
 
-		if (usingSkill == null && Input.GetMouseButtonDown(0)) {
+		if (takingDamage) {
+			timeDmg += Time.deltaTime;
+			Debug.Log ("DMG " + timeDmg);
+			if (timeDmg > timeDmgTotal) {
+				timeDmg = 0f;
+				takingDamage = false;
+			}
+		}
+
+		if (usingSkill == null && Input.GetMouseButtonDown(0) && !takingDamage) {
 			rb2D.velocity = new Vector2 (0f,0f);
 
 			Vector3 position = Camera.main.ScreenToWorldPoint (Input.mousePosition);
@@ -65,7 +79,7 @@ public class Player : NetworkBehaviour  {
 				usingSkill = null;
 				animator.SetTrigger ("Idle");
 			}
-		} else {
+		} else if (!takingDamage) {
 			tryWalking();
 		}
 
@@ -113,8 +127,10 @@ public class Player : NetworkBehaviour  {
 
    public void TakeDamage(int amount)
     {
+		takingDamage = true;
 		animator.SetTrigger ("Damage");
         health -= amount;
+		rb2D.velocity = new Vector2 (0f,0f);
     }
 
 	[Command]
