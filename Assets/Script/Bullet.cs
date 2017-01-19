@@ -32,12 +32,12 @@ public class Bullet : NetworkBehaviour {
 
 		//Debug.Log ("===" + hit.tag);
 		if (hit.tag == "Player") {
-			Debug.Log (hit);
+			//Debug.Log (hit);
 			Player player = hit.GetComponent<Player> ();
 
 			Debug.Log ("===" + player);
 			if (player != null) {
-				player.TakeDamage (1);
+				player.TakeDamage (10);
 				//Debug.Log ("hELATH" + player.health);
 			}
 		} else if (hit.tag == "bullet") {
@@ -53,7 +53,7 @@ public class Bullet : NetworkBehaviour {
 		Vector3 start = new Vector3 (position.x, position.y, 0f);
 		GameObject instance = Instantiate (explosion, start, Quaternion.identity) as GameObject;
 
-		Debug.Log("---exploding" + instance);
+		//Debug.Log("---exploding" + instance);
 		SoundManager.instance.RandomizeSfx (explosionSound);
 		NetworkServer.Spawn (instance);
 	}
