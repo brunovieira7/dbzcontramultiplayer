@@ -45,13 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RaySpell.cs" />
      <Compile Include="Assets\Script\AnimationAutoDestroy.cs" />
      <Compile Include="Assets\Script\Bullet.cs" />
      <Compile Include="Assets\Script\CameraController.cs" />
      <Compile Include="Assets\Script\MovingObject.cs" />
      <Compile Include="Assets\Script\Player.cs" />
+     <Compile Include="Assets\Script\RaySpell.cs" />
      <Compile Include="Assets\Script\Skill.cs" />
+     <Compile Include="Assets\Script\SkillStatus.cs" />
      <Compile Include="Assets\Script\SoundManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

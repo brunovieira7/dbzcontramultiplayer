@@ -28,8 +28,11 @@ public class Player : NetworkBehaviour  {
 	private GameObject healthBar;
 	private bool isDead = false;
 
+	private int skillActive;
+
 	// Use this for initialization
 	void Start () {
+		skillActive = 1;
 		animator = GetComponent<Animator>();
 		rb2D = GetComponent <Rigidbody2D> ();
 		health = maxHealth;
@@ -58,6 +61,19 @@ public class Player : NetworkBehaviour  {
 		    return;
 		}
 
+		if (Input.GetKeyDown ("1")) {
+			skillActive = 1;
+		}
+
+		if (Input.GetKeyDown ("2")) {
+			skillActive = 2;
+		}
+
+		if (Input.GetKeyDown ("3")) {
+			skillActive = 3;
+		}
+			
+
 		if (takingDamage) {
 			timeDmg += Time.deltaTime;
 			//Debug.Log ("DMG " + timeDmg);
@@ -65,6 +81,11 @@ public class Player : NetworkBehaviour  {
 				timeDmg = 0f;
 				takingDamage = false;
 			}
+		}
+
+		if (usingSkill != null && Input.GetMouseButton (0) && !takingDamage &&  (skillActive == 3)) {
+			Debug.Log ("=ACTIVE!");
+				return;
 		}
 
 		if (usingSkill == null && Input.GetMouseButtonDown(0) && !takingDamage) {
@@ -76,10 +97,21 @@ public class Player : NetworkBehaviour  {
 			Vector2 direction = position - this.bulletspawn.position;
 			direction.Normalize();
 
-			usingSkill = new Skill ("Cast", 0.3f, direction);
+			if (skillActive == 1) {
+				usingSkill = new Skill ("Casting_1", 0.3f,  0.3f, direction, 1);
+			}
+			else if (skillActive == 2) {
+				usingSkill = new Skill ("Casting_2", 0.3f, 2.3f, direction, 2);
+			}
+			else if (skillActive == 3) {
+				usingSkill = new Skill ("Power", 0.3f, 2.3f, direction, 3);
+				animator.SetTrigger (usingSkill.getTrigger());
+				return;
+			}
+
 			//Debug.Log("Mouse Pos " + direction );
 
- 			animator.SetTrigger ("Cast");
+			animator.SetTrigger (usingSkill.getTrigger());
 
 			CmdChangeDirection(direction.x);
 
@@ -87,13 +119,23 @@ public class Player : NetworkBehaviour  {
 		}
 			
 		if (usingSkill != null) {
-			if (!usingSkill.ready) {
-				usingSkill.doSkill (Time.deltaTime);
-			} else {
-				CmdFire (usingSkill.getPosition ());
+			SkillStatus status = usingSkill.doSkill (Time.deltaTime);
+
+			if (status == SkillStatus.READY) {
+				if (usingSkill.getSkill() == 1) {
+					CmdFireBullet (usingSkill.getPosition ());
+				}
+				else if (usingSkill.getSkill() == 2) {
+					CmdFire (usingSkill.getPosition ());
+				}
+				usingSkill.skillActive ();
+			}
+			else if (status == SkillStatus.ENDED) {
+				Debug.Log ("ENDED????");
 				usingSkill = null;
 				animator.SetTrigger ("Idle");
 			}
+
 		} else if (!takingDamage) {
 			tryWalking();
 		}
@@ -187,9 +229,9 @@ public class Player : NetworkBehaviour  {
 		//Debug.Log("p2" + position );
 
 		Vector3 start = new Vector3 (this.bulletspawn.position.x, this.bulletspawn.position.y, 0f);
-		GameObject instance = Instantiate (bullet, start, Quaternion.identity) as GameObject;
+		GameObject instance = Instantiate (raySpell, start, Quaternion.identity) as GameObject;
 
-		var script = instance.GetComponent<Bullet>();
+		var script = instance.GetComponent<RaySpell>();
 		if( script != null )
 		{
 			var angle = Mathf.Atan2(position.y, position.x) * Mathf.Rad2Deg;
@@ -198,7 +240,7 @@ public class Player : NetworkBehaviour  {
 			// Vector2 direction = position - this.bulletspawn.position;
 			//  direction.Normalize();
 
-			script.fireBullet(position);
+			script.fireSpell(position);
 			SoundManager.instance.RandomizeSfx (shoot);
 		}
 
