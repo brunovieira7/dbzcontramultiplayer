@@ -23,10 +23,13 @@ public class Player : NetworkBehaviour  {
 	public AudioClip shoot;
 
 	public int maxHealth;
-	private int health;
+
+	[SyncVar (hook="LifeChanged")] private int health;
 	private GameObject healthBarInfo;
-	private GameObject healthBar;
+	public GameObject healthBar;
 	private bool isDead = false;
+
+	private GameObject[] UIBUttons;
 
 	private int skillActive;
 
@@ -41,13 +44,25 @@ public class Player : NetworkBehaviour  {
 		takingDamage = false;
 
 		if (isLocalPlayer && GetComponent<NetworkView>().isMine) {
+
 			GameObject myCam = GameObject.Find ("Main Camera");
 			var script = myCam.GetComponent<CameraController> ();
 			script.player = gameObject;
 
-			healthBarInfo = GameObject.Find ("healthBarInfo");
-			healthBar = GameObject.Find ("healthBar");
+			UIBUttons = new GameObject[3];
+
+			UIBUttons[0] = GameObject.Find ("Button1_ac");
+			UIBUttons[1] = GameObject.Find ("Button2_ac");
+			UIBUttons[2] = GameObject.Find ("Button3_ac");
+
+			UIBUttons[1].SetActive (false);
+			UIBUttons[2].SetActive (false);
 		}
+	}
+
+	int getId() {
+		NetworkIdentity ni = GetComponent<NetworkIdentity> ();
+		return ni.GetInstanceID();
 	}
 
 	// Update is called once per frame
@@ -61,19 +76,12 @@ public class Player : NetworkBehaviour  {
 		    return;
 		}
 
-		if (Input.GetKeyDown ("1")) {
-			skillActive = 1;
-		}
-
-		if (Input.GetKeyDown ("2")) {
-			skillActive = 2;
-		}
-
-		if (Input.GetKeyDown ("3")) {
-			skillActive = 3;
+		if (Input.GetKeyDown ("1") || Input.GetKeyDown ("2") || Input.GetKeyDown ("3")) {
+			int.TryParse (Input.inputString, out skillActive);
+			animator.SetInteger ("SpellSelected", skillActive);
+			activateButton (skillActive);
 		}
 			
-
 		if (takingDamage) {
 			timeDmg += Time.deltaTime;
 			//Debug.Log ("DMG " + timeDmg);
@@ -83,9 +91,14 @@ public class Player : NetworkBehaviour  {
 			}
 		}
 
-		if (usingSkill != null && Input.GetMouseButton (0) && !takingDamage &&  (skillActive == 3)) {
-			Debug.Log ("=ACTIVE!");
-				return;
+
+		if (animator.GetInteger ("SpellSelected") == 3 && animator.GetBool ("SpellReady") == true && Input.GetMouseButton (0)) {
+			rb2D.velocity = new Vector2 (0f,0f);
+			return;
+		}
+
+		if (animator.GetInteger ("SpellSelected") == 3 && animator.GetBool ("SpellReady") == true && Input.GetMouseButtonUp (0)) {
+			animator.SetBool ("SpellReady", false);
 		}
 
 		if (usingSkill == null && Input.GetMouseButtonDown(0) && !takingDamage) {
@@ -103,15 +116,11 @@ public class Player : NetworkBehaviour  {
 			else if (skillActive == 2) {
 				usingSkill = new Skill ("Casting_2", 0.3f, 2.3f, direction, 2);
 			}
-			else if (skillActive == 3) {
-				usingSkill = new Skill ("Power", 0.3f, 2.3f, direction, 3);
-				animator.SetTrigger (usingSkill.getTrigger());
-				return;
-			}
+
 
 			//Debug.Log("Mouse Pos " + direction );
 
-			animator.SetTrigger (usingSkill.getTrigger());
+			animator.SetBool ("SpellReady", true);
 
 			CmdChangeDirection(direction.x);
 
@@ -131,15 +140,23 @@ public class Player : NetworkBehaviour  {
 				usingSkill.skillActive ();
 			}
 			else if (status == SkillStatus.ENDED) {
-				Debug.Log ("ENDED????");
+				//Debug.Log ("ENDED????");
 				usingSkill = null;
-				animator.SetTrigger ("Idle");
+				//animator.SetTrigger ("Idle");
+				animator.SetBool ("SpellReady", false);
 			}
 
 		} else if (!takingDamage) {
 			tryWalking();
 		}
 
+	}
+
+	void activateButton(int active) {
+		for (int x = 0; x < UIBUttons.Length; x++) {
+			UIBUttons [x].SetActive (false);
+		}
+		UIBUttons [active-1].SetActive (true);
 	}
 
 	void flip() {
@@ -182,17 +199,10 @@ public class Player : NetworkBehaviour  {
 		}
 	}
 
-/*   public void TakeDamage(int amount)
-    {
-		takingDamage = true;
-		animator.SetTrigger ("Damage");
-        health -= amount;
-		rb2D.velocity = new Vector2 (0f,0f);
-    }*/
-
-
-	public void TakeDamage(int dmg) {
-		Debug.Log("taking DMG: " + dmg );
+	[Command]
+	public void CmdTakeDamage(int dmg) {
+		Debug.Log("taking DMG: " + dmg);
+		Debug.Log ("local:" + isLocalPlayer + " server:" + isServer + " health:"+health);
 		if (isDead) {
 			return;
 		}
@@ -209,41 +219,39 @@ public class Player : NetworkBehaviour  {
 			rb2D.gravityScale = 1;
 		}
 
-		RectTransform rect = healthBar.GetComponent<RectTransform> ();
-		RectTransform rectInfo = healthBarInfo.GetComponent<RectTransform> ();
+	}
 
-		float newScale = (float) health / maxHealth;
+	void LifeChanged(int value) { 
+		RectTransform rect = healthBar.GetComponent<RectTransform> ();
+
+
+		float newScale = (float) value / maxHealth;
 
 		Vector3 currScale = rect.localScale;
 		currScale.x = newScale;
 
-		Debug.Log("scale: " + currScale.x );
+		//Debug.Log("scale: " + currScale.x );
 
 		rect.localScale = currScale;
-		rectInfo.localScale = currScale;
-	}
 
+		if (isLocalPlayer) {
+			healthBarInfo = GameObject.Find ("healthBarInfo");
+			RectTransform rectInfo = healthBarInfo.GetComponent<RectTransform> ();
+			rectInfo.localScale = currScale;
+		}
+
+	}
 
 	[Command]
 	void CmdFire(Vector3 position) {
 		//Debug.Log("p2" + position );
 
 		Vector3 start = new Vector3 (this.bulletspawn.position.x, this.bulletspawn.position.y, 0f);
-		GameObject instance = Instantiate (raySpell, start, Quaternion.identity) as GameObject;
 
-		var script = instance.GetComponent<RaySpell>();
-		if( script != null )
-		{
-			var angle = Mathf.Atan2(position.y, position.x) * Mathf.Rad2Deg;
-			instance.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward); 
+		var angle = Mathf.Atan2(position.y, position.x) * Mathf.Rad2Deg;
+		GameObject instance = Instantiate (raySpell, start, Quaternion.AngleAxis(angle, Vector3.forward)) as GameObject;
 
-			// Vector2 direction = position - this.bulletspawn.position;
-			//  direction.Normalize();
-
-			script.fireSpell(position);
-			SoundManager.instance.RandomizeSfx (shoot);
-		}
-
+		SoundManager.instance.RandomizeSfx (shoot);
 		NetworkServer.Spawn (instance);
 	}
 
@@ -252,17 +260,12 @@ public class Player : NetworkBehaviour  {
 		//Debug.Log("p2" + position );
 
 		Vector3 start = new Vector3 (this.bulletspawn.position.x, this.bulletspawn.position.y, 0f);
-		GameObject instance = Instantiate (bullet, start, Quaternion.identity) as GameObject;
+		var angle = Mathf.Atan2(position.y, position.x) * Mathf.Rad2Deg;
+		GameObject instance = Instantiate (bullet, start, Quaternion.AngleAxis(angle, Vector3.forward)) as GameObject;
 
 		var script = instance.GetComponent<Bullet>();
 		if( script != null )
 		{
-			var angle = Mathf.Atan2(position.y, position.x) * Mathf.Rad2Deg;
-			instance.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward); 
-
-            // Vector2 direction = position - this.bulletspawn.position;
-           //  direction.Normalize();
-
 			script.fireBullet(position);
 			SoundManager.instance.RandomizeSfx (shoot);
 		}

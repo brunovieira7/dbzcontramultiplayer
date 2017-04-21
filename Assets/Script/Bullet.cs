@@ -25,23 +25,24 @@ public class Bullet : NetworkBehaviour {
 	public void fireBullet(Vector2 end) {
 		this.end = end;
 	}
-
+		
 	void OnCollisionEnter2D(Collision2D collision)
     {
 		GameObject hit = collision.gameObject;
 
-		//Debug.Log ("===" + hit.tag);
+		Debug.Log ("===" + hit.tag);
 		if (hit.tag == "Player") {
 			//Debug.Log (hit);
 			Player player = hit.GetComponent<Player> ();
 
 			Debug.Log ("===" + player);
 			if (player != null) {
-				player.TakeDamage (10);
+				player.CmdTakeDamage (10);
 				//Debug.Log ("hELATH" + player.health);
+				CmdExplode (transform.position);
 			}
 		} else if (hit.tag == "bullet") {
-			CmdExplode (hit.transform.position);
+			CmdExplode (transform.position);
 
 		}
 		//Debug.Log("collided" );

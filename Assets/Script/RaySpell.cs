@@ -11,9 +11,15 @@ public class RaySpell : NetworkBehaviour {
 	public GameObject body;
 	public GameObject tip;
 	public float elapsedTime;
+	private BoxCollider2D collider;
+	private Rigidbody2D rb2D;
 
 	void Start () {
 		elapsedTime = 0f;
+		collider = GetComponent<BoxCollider2D> ();
+		rb2D= GetComponent<Rigidbody2D> ();
+		//Vector3 scale = body.transform.localScale;
+		//collider.transform.localScale = scale;
 	}
 	
 	// Update is called once per frame
@@ -28,6 +34,7 @@ public class RaySpell : NetworkBehaviour {
 		if (end != null) {
 			if (origin == null) {
 				origin = body.transform.position;
+				//collider.transform.position = origin;
 			}
 
 			Vector3 scale = body.transform.localScale;
@@ -35,6 +42,7 @@ public class RaySpell : NetworkBehaviour {
 
 		
 			body.transform.localScale = scale;
+			collider.transform.localScale = scale;
 
 			var rend = body.GetComponentInChildren<Renderer> ();
 
@@ -52,9 +60,21 @@ public class RaySpell : NetworkBehaviour {
 		this.end = end;
 	}
 
-	void OnTriggerEnter2D(Collider2D collision)
+	void OnCollisionEnter2D(Collision2D collision)
 	{
-		Destroy (gameObject);
+		GameObject hit = collision.gameObject;
+
+		Debug.Log ("+++" + hit.tag);
+		if (hit.tag == "Player") {
+			//Debug.Log (hit);
+			Player player = hit.GetComponent<Player> ();
+
+			Debug.Log ("===" + player);
+			if (player != null) {
+				player.CmdTakeDamage (20);
+				//Debug.Log ("hELATH" + player.health);
+			}
+		}
 	}
 }
 
